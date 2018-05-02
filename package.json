@@ -1,0 +1,48 @@
+{
+  "name": "asynciteratorasync",
+  "version": "0.0.1",
+  "description": "An AsyncIterator extensions that allows for async closures in utility functions",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "prepare": "npm run build",
+    "watch": "gulp watch",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wschella/AsyncIteratorAsync.git"
+  },
+  "keywords": [
+    "async",
+    "iterator",
+    "promise"
+  ],
+  "author": "Wout Schellaert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wschella/AsyncIteratorAsync/issues"
+  },
+  "homepage": "https://github.com/wschella/AsyncIteratorAsync#readme",
+  "devDependencies": {
+    "@types/asynciterator": "^1.1.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-typescript": "^3.2.2",
+    "jest": "^22.4.0",
+    "jest-html-reporter": "^0.5.3",
+    "merge-stream": "^1.0.1",
+    "ts-jest": "^21.1.1",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.8.0",
+    "tslint-eslint-rules": "^4.1.1",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "asynciterator": "^1.1.1"
+  }
+}
