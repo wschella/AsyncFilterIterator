@@ -1,1 +1,1 @@
-export { AsyncIteratorAsync } from "./lib/AsyncIteratorAsync";
+export { AsyncFilterIterator } from "./lib/AsyncFilterIterator";
