@@ -2,42 +2,6 @@ import { AsyncFilterIterator } from '../lib/AsyncFilterIterator';
 import { TransformIterator, AsyncIterator, ArrayIterator } from 'asynciterator';
 
 describe('AsyncFilterIterator', () => {
-  // let bus;
-  // let mediatorQueryOperation;
-  // const truthyExpression = {
-  //   expressionType: 'term',
-  //   term: { termType: 'Literal', value: 'true' },
-  //   type: 'expression',
-  // };
-  // const falsyExpression = {
-  //   expressionType: 'term',
-  //   term: { termType: 'Literal', value: 'false' },
-  //   type: 'expression',
-  // };
-  // const unknownExpression = {
-  //   args: [],
-  //   expressionType: 'term',
-  //   operator: 'DUMMY',
-  //   type: 'operator',
-  // };
-
-  // beforeEach(() => {
-  //   bus = new Bus({ name: 'bus' });
-  //   mediatorQueryOperation = {
-  //     mediate: (arg) => Promise.resolve({
-  //       bindingsStream: new ArrayIterator([
-  //         Bindings({ a: literal('1') }),
-  //         Bindings({ a: literal('2') }),
-  //         Bindings({ a: literal('3') }),
-  //       ]),
-  //       metadata: () => Promise.resolve({ totalItems: 3 }),
-  //       operated: arg,
-  //       type: 'bindings',
-  //       variables: ['a'],
-  //     }),
-  //   };
-  // });
-
   describe('The AsyncFilterIterator module', () => {
     it('should be a function', () => {
       expect(AsyncFilterIterator).toBeInstanceOf(Function);

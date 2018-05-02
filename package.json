@@ -1,7 +1,7 @@
 {
   "name": "asyncfilteriterator",
   "version": "0.0.1",
-  "description": "An AsyncIterator extensions that allows for async closures in utility functions",
+  "description": "An AsyncIterator extensions that allows for filtering with Promise based filters.",
   "main": "dist/index.js",
   "scripts": {
     "prepare": "npm run build",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wschella/AsyncIteratorAsync.git"
+    "url": "git+https://github.com/wschella/AsyncFilterIterator.git"
   },
   "keywords": [
     "async",
@@ -21,11 +21,12 @@
   "author": "Wout Schellaert",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wschella/AsyncIteratorAsync/issues"
+    "url": "https://github.com/wschella/AsyncFilterIteratorissues"
   },
-  "homepage": "https://github.com/wschella/AsyncIteratorAsync#readme",
+  "homepage": "https://github.com/wschella/AsyncFilterIterator#readme",
   "devDependencies": {
     "@types/asynciterator": "^1.1.1",
+    "@types/jest": "^21.1.4",
     "jest": "^22.4.0",
     "jest-html-reporter": "^0.5.3",
     "ts-jest": "^21.1.1",
